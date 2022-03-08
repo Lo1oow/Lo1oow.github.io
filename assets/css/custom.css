@@ -1,5 +1,5 @@
 /* ============ GLOBAL CUSTOM PROPERTIES ============  */
-footer { background-color: var(--blue-600) }
+footer { background-color: black }
 footer h3 { color: var(--ontrend-100) }
 footer h2 { color: var(--ontrend-100) }
 
@@ -133,7 +133,7 @@ footer h2 { color: var(--ontrend-100) }
     --ontrend-900: #0e2439;
 
     --global-font: var(--sans-serif);
-    --drop-shadow: var(--gray-500);
+    --drop-shadow: var(--black-000);
     --img-border: var(--gray-700);
 }
 
@@ -172,4 +172,46 @@ footer ul.footer-icons li a:focus i,
 footer ul.footer-icons li a:hover i, 
 footer ul.footer-icons li a:active i { color: var(--teal-900)}
 
-.theme-two { background-color: var(--orange-100) }
+.theme-two { 
+    background-color: var(--black-000);
+    color:var(--teal-500);
+}
+
+.theme-two .col-2 p :hover { 
+    color: var(--teal-500);
+    background-color: #000;
+}
+.theme-two .col-2 li { color: var(--teal-500) }
+.theme-two .col-2 a {color: var(--teal-400);}
+
+.theme-one {
+    background-color: var(--teal-500);
+}
+.theme-one h2{
+    color: #000;
+}
+
+.theme-one h3{
+    color: #000;
+}
+
+.hero-block h1{
+    color: var(--teal-500);
+}
+
+.hero-block h2{
+    color: var(--teal-500);
+}
+
+
+.rage h2{
+    color: var(--teal-500);
+}
+
+.container-contact-form form{
+    border: 3px var(--teal-500) solid;
+}
+
+.theme-one .col-1{
+    border: 6px double black;
+}
