@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(100,0,150);
+    text-align: center;
+}
+
+.une{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    line-height: 500%;
+}
+
+.deux{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    line-height: 500%;
+}
+
+.trois{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    line-height: 500%;
+}
